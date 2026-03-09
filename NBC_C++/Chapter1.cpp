@@ -102,7 +102,7 @@ void setPotion(int count, int* p_HPPotion, int* p_MPPotion)
 	else if (count == 2 && *p_MPPotion > 0)
 	{
 		*p_MPPotion = *p_MPPotion - 1;
-		cout << "HP가 20 증가되었습니다. MP포션이 1개 차감 됩니다." << endl;
+		cout << "MP가 20 증가되었습니다. MP포션이 1개 차감 됩니다." << endl;
 	}
 	else
 	{
