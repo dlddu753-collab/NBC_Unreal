@@ -12,5 +12,5 @@ Thief ::Thief(std::string nickname) :Player(nickname)
 
 void Thief::attack()
 {
-	std::cout << "화르르륵" << std::endl;
+	std::cout << "스윽" << std::endl;
 }
