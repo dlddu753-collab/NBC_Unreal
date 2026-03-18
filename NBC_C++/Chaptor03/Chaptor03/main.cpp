@@ -91,7 +91,6 @@ public:
         {
             if (i < size_)
             {
-                std::cout << i << "번 슬롯: ";
                 pItems_[i].PrintInfo(); 
             }
             else
